@@ -4,6 +4,9 @@
 - Adobe Lightroom Classic (LrC)
 - Adobe Photoshop
 
+## Storage:
+- Samsung T7 2TB SSD — primary working drive for LrC catalogue, libraries and edits
+
 ## Accessories:
 - Sekonic L-8 light meter (SN: 610924) — with leather case
 - Godox X2T-N TTL wireless flash trigger (Nikon)
