@@ -7,10 +7,10 @@ _Cold-start anchor. Keep brief — full session detail lives in `.claude/session
 - **Stack:** Markdown
 
 ## Current focus
-T7 backup workflow — rsync from T7 to NAS, automated via launchd. iMac done; MBP pending.
+LrC catalogue backup to NAS — next step before travel.
 
 ## Last session
-**2026-07-14** — Set up hourly rsync backup from T7 (`/Volumes/t7/photos/`) to NAS Synology DS225+ (`/Volumes/photos/photography/`) on iMac. Script mounts NAS automatically via SMB (LAN or Tailscale). NAS credentials stored in Keychain. launchd agent runs hourly. Both files committed to dotfiles repo and pushed. MBP setup not yet done.
+**2026-07-14** — Completed hourly rsync backup setup on both iMac and MBP. Script at `~/dotfiles/bin/t7-backup.sh` syncs `/Volumes/t7/photos/` → `/Volumes/photos/photography/`, auto-mounting NAS via SMB (LAN or Tailscale). NAS credentials in Keychain on both machines. launchd agent loaded and verified on both. Next: LrC catalogue backup to NAS, then end-to-end Tailscale test before departure.
 
 ## Session log
 - [2026-07-14](.claude/sessions/2026-07-14.md)
