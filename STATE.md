@@ -7,10 +7,11 @@ _Cold-start anchor. Keep brief — full session detail lives in `.claude/session
 - **Stack:** Markdown
 
 ## Current focus
-LrC catalogue backup to NAS — next step before travel.
+LrC workflow established. Catalogue created on T7. Ready to shoot.
 
 ## Last session
-**2026-07-14** — Completed hourly rsync backup setup on both iMac and MBP. Script at `~/dotfiles/bin/t7-backup.sh` syncs `/Volumes/t7/photos/` → `/Volumes/photos/photography/`, auto-mounting NAS via SMB (LAN or Tailscale). NAS credentials in Keychain on both machines. launchd agent loaded and verified on both. Next: LrC catalogue backup to NAS, then end-to-end Tailscale test before departure.
+**2026-07-15** — Designed full LrC workflow. T7 holds photos (`YYYY/MM/`), exports (`YYYY/`), and catalogue. Import direct from card, cull in LrC, no XMP sidecars. Catalogue backups to NAS on both machines. Rsync extended to cover `exports/` → NAS. Catalogue created at `/Volumes/t7/catalogue/`.
 
 ## Session log
 - [2026-07-14](.claude/sessions/2026-07-14.md)
+- [2026-07-15](.claude/sessions/2026-07-15.md)
